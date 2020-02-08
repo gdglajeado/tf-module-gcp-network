@@ -1,4 +1,4 @@
-# Google Instances Terraform module
+# Google Network Terraform module
 
 Simples Módulo para Terraform que cria redes no Google Cloud Platform.
 
@@ -11,7 +11,7 @@ Esta definição encontra-se no arquivo `versions.tf`
 ## Como utilizar
 
 ```hcl
-module "instance" {
+module "network" {
   source = "git@github.com/gdglajeado/tf-module-gcp-network.git?ref=v1.0"
 
   name                    = "rundeck"
